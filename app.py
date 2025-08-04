@@ -212,7 +212,10 @@ if selected == "Beranda":
         st.title("HEARTASTIC!")
         st.markdown("<h3 style='color:#FFF9EE;'>Heart Analytics System for Trend Identification and Classification</h3>", unsafe_allow_html=True)
         st.markdown(
-            "<p style='color:#FFF9EE;'>Hearttastic adalah sistem pintar untuk mendeteksi risiko penyakit jantung sejak dini menggunakan data kesehatan Anda.</p>",
+            "<p style='color:#FFF9EE;'>Heartastic adalah aplikasi prediksi dini penyakit jantung yang memanfaatkan teknologi machine learning " \
+            "untuk membantu pengguna memahami potensi risiko kesehatan mereka secara cepat dan akurat. Dengan menganalisis data medis seperti " \
+            "tekanan darah, kolesterol, dan usia, Heartastic memberikan informasi prediktif yang dapat digunakan untuk pencegahan dan " \
+            "pengambilan keputusan kesehatan yang lebih baik.</p>",
             unsafe_allow_html=True
         )
     st.divider()

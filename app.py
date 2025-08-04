@@ -73,7 +73,7 @@ h3 {
     box-shadow: 0 0 20px rgba(255, 75, 75, 0.6);
 }
 
-/* --- Halaman Tentang Kami --- */
+/* --- Tentang Kami --- */
 div[data-testid="column"] > div[data-testid="stVerticalBlock"] {
     background-color: rgba(255, 249, 238, 0.07);
     border: 1px solid rgba(249, 155, 182, 0.2);
@@ -211,7 +211,10 @@ if selected == "Beranda":
     with col2:
         st.title("HEARTASTIC!")
         st.markdown("<h3 style='color:#FFF9EE;'>Heart Analytics System for Trend Identification and Classification</h3>", unsafe_allow_html=True)
-
+        st.markdown(
+            "<p style='color:#FFF9EE;'>Hearttastic adalah sistem pintar untuk mendeteksi risiko penyakit jantung sejak dini menggunakan data kesehatan Anda.</p>",
+            unsafe_allow_html=True
+        )
     st.divider()
 
     with st.container():

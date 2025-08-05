@@ -8,4 +8,6 @@ imbalanced-learn
 seaborn
 matplotlib
 scipy
+Pillow
+streamlit-option-menu
 optuna
